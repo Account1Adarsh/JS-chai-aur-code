@@ -62,6 +62,9 @@ const user1=[
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+//Topic destructure of object
+
+
 const course={
         coursename: "Js in Hindi",
         price: "Free",
@@ -69,11 +72,40 @@ const course={
 }
 
 //console.log(course.courseInstructor);
- const {courseInstructor}=course;
- console.log(courseInstructor);
+
+
+//  const {courseInstructor}=course;
+//  console.log(courseInstructor);
  
+const {courseInstructor: ins}=course;
+console.log(ins);
+
+
+// ||||||||||||||||||
+
+
+// API IS VALUES WE GET FROM BACKEND IN JASON STRUCTURE 
+
+// JASON is like object but does not have any name to it and its key are also in string
+
+
+// Jason
+// {
+//     "name": "Adarsh",
+//     "course name": "Js in Hindi",
+//     "price": "free"
+// }
  
 
+// sometimes we get api in array format and are usually array of aobjects
+
+[
+    {},
+    {},
+    {}
+]
+
+// random me api    and jason formatter
 
 
 
