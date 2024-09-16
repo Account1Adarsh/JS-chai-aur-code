@@ -26,14 +26,23 @@ console.log(myarr2[3]);
 // console.log(myarr.includes(9));
 // console.log(myarr.indexOf(9));
 
-const newarr=myarr.join();
-console.log(myarr);
-console.log(newarr);
+const newarr=myarr.join();//adds all the element in the form of string comma seprated
+// console.log(myarr);
+// console.log(newarr);
 
 
 
 //slice or splice
 
+console.log("A", myarr);
+
+const tev=myarr.slice(1,3);
+console.log(tev);
+console.log("B", myarr);
+
+const ket=myarr.splice(1,3);
+console.log(ket);
+console.log("A", myarr);
 
 
 
