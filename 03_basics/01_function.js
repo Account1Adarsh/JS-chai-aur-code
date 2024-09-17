@@ -73,6 +73,7 @@ const user={
 function name(anyobj){
     console.log(`The username is ${anyobj.username} and the id is ${anyobj.id}`);
 }
+
  name(user);
 
  const arr=[10,20,30,40]
