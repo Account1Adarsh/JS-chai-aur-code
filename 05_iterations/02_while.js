@@ -9,9 +9,9 @@
 
 // }while(condition);
 
-let score=11;
-do{
-    console.log(`Value is ${score}`);
-    score++;
+// let score=11;
+// do{
+//     console.log(`Value is ${score}`);
+//     score++;
     
-}while(score<=10);
+// }while(score<=10);
